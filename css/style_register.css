@@ -1,5 +1,5 @@
-    #register{
-        background-image: url(fondo.jpg);
-        background-size: cover;
-        background-attachment: fixed;
-    }
+#register{
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
