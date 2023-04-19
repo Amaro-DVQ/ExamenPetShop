@@ -13,10 +13,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body>
+    <body onload="mueveReloj()">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container px-4 ">
+                    <!-- <form name="form_reloj">
+                        <input type="text" name="reloj" size="10" style="background-color : Black; color : White; text-align : center;"
+                            onfocus="window.document.form_reloj.reloj.blur()">
+                    </form> -->
                 <img src="img/logoperro.jpg" alt="" style="height: 50px; width: 50px;">
                 <a class="navbar-brand" href="#!">Los Tres Mosqueperros</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -314,5 +318,6 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!--         <script src="js/reloj.js"></script> -->
     </body>
 </html>
