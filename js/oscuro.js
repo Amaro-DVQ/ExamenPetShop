@@ -1,10 +1,13 @@
 let toggle=document.getElementById('toggle');
 let moscuro=document.getElementById('moscuro');
 
+
+
 toggle.addEventListener('change',(event)=>{
     let checked=event.target.checked;
 
     document.body.classList.toggle('dark');
+
 
 
 
