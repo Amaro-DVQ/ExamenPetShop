@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style_register.css">
-    <link rel="icon" type="image/x-icHon" href="assets/dog-ball.ico" />
-    <title>Register</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style_register.css">
+  <link rel="icon" type="image/x-icHon" href="assets/dog-ball.ico" />
+  <title>Register</title>
 </head>
+
 <body>
-      <section class="vh-100 bg-image" id="register">
-    
-      <div class="mask d-flex align-items-center h-100">
+  <section class="vh-100 bg-image" id="register">
+
+    <div class="mask d-flex align-items-center h-100">
       <div class="container h-100 ">
         <div class="row d-flex justify-content-center align-items-center h-100 ">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div class="card" style="border-radius: 15px;">
               <div class="card-body p-5">
-                
+
                 <h2 class="text-uppercase text-center mb-5">Create an account</h2>
-                
+
 
                 <form>
 
                   <div class="form-outline mb-4">
-                      <label class="form-label" for="form3Example1cg" style="color:black">Name</label>
-                      <input type="text" id="form3Example1cg" class="form-control form-control-lg" placeholder="Juan Perez"/>
-                      <small id="varNombre"> Enter your Name</small>
+                    <label class="form-label" for="form3Example1cg" style="color:black">Name</label>
+                    <input type="text" id="form3Example1cg" class="form-control form-control-lg"
+                      placeholder="Juan Perez" />
+                    <small id="varNombre"> Enter your Name</small>
                   </div>
 
                   <div class="form-outline mb-4">
-                      <label class="form-label" for="form3Example3cg" style="color:black" >Email</label>
-                      <input type="email" id="form3Example3cg" class="form-control form-control-lg" placeholder="ejemplo@correo.com"/>
-                      <small id="varCorreo"> Enter your Email </small>
+                    <label class="form-label" for="form3Example3cg" style="color:black">Email</label>
+                    <input type="email" id="form3Example3cg" class="form-control form-control-lg"
+                      placeholder="ejemplo@correo.com" />
+                    <small id="varCorreo"> Enter your Email </small>
                   </div>
 
                   <div class="form-outline mb-4">
-                      <label class="form-label" for="form3Example4cg"style="color:black" >Password</label>
-                      <input type="password" id="form3Example4cg" class="form-control form-control-lg" placeholder="**********"/>
-                      <small id="varPassord"> Enter your Password </small>
+                    <label class="form-label" for="form3Example4cg" style="color:black">Password</label>
+                    <input type="password" id="form3Example4cg" class="form-control form-control-lg"
+                      placeholder="**********" />
+                    <small id="varPassord"> Enter your Password </small>
                   </div>
 
                   <div class="form-outline mb-4">
-                      <label class="form-label" for="form3Example4cdg" style="color:black">Repeat your password</label>
-                      <input type="password" id="form3Example4cdg" class="form-control form-control-lg" placeholder="Repeat your Password"/>  
-                      <small id="varRPassword"> Repeat your Password</small>
-                    </div>
+                    <label class="form-label" for="form3Example4cdg" style="color:black">Repeat your password</label>
+                    <input type="password" id="form3Example4cdg" class="form-control form-control-lg"
+                      placeholder="Repeat your Password" />
+                    <small id="varRPassword"> Repeat your Password</small>
+                  </div>
 
                   <div class="form-check d-flex justify-content-center mb-5">
                     <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3cg" />
@@ -54,15 +60,16 @@
                       I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                     </label>
                   </div>
-                  
+
 
                   <div class="d-flex justify-content-center">
-                    <button type="button"
-                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body d-flex " style="background-color: blanchedalmond;" onclick="validar()">Register</button>
+                    <button type="button" class="btn btn-dark btn-block btn-lg gradient-custom-4 text-body d-flex" id="btnRegister"
+                      style="background-color: blanchedalmond;" onclick="validar()" >Register</button>
                   </div>
 
-                  <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="login.html"
-                      class="fw-bold text-body"><u>Login here</u></a></p>
+                  <p class="text-center text-muted mt-5 mb-0">Have already an account?
+                    <a href="login.html" class="fw-bold text-body"><u>Login here</u></a>
+                  </p>
 
                 </form>
 
@@ -73,6 +80,7 @@
       </div>
     </div>
   </section>
-<script src="js/form.js"></script>
+  <script src="js/form.js"></script>
 </body>
+
 </html>

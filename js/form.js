@@ -45,3 +45,16 @@ function validar() {
         document.getElementById("form3Example4cdg").classList.add("is-valid");   
     }
 }
+
+
+/* intentando hace una función que verifique el estado del checkbox para que active el btn de registro
+    function register() {
+    if(document.querySelector(".form-check-input.checked == true")){
+        btnRegister.disabled = false;
+        console.log("hola");
+    } else {
+        btnRegister.disabled = true;
+        console.log("adios");
+    }
+} */
+
