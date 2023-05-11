@@ -6,7 +6,7 @@ document.getElementById("varRPassword").style.display = "none";
 
 
 
-function validar() {
+function validarRegister() {
     if (document.getElementById("form3Example1cg").value.length == 0 ) {
         document.getElementById("varNombre").style.display = "inline";
         document.getElementById("form3Example1cg").classList.add("is-invalid");

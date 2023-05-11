@@ -286,7 +286,7 @@ footer .card-text{
 }
 
 .dark .card{
-    background-color: #0d1117;
+    background-color: #42b3e5;
 }
 
 .dark .card-title{
@@ -344,7 +344,7 @@ footer .card-text{
 }
 
 .dark footer{
-    background-color: #0d1117;
+    background-color: #212529;
     transition: all 1.5s ease;
 }
 .dark footer .card .card-body{

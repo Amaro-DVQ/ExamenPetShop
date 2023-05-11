@@ -1,7 +1,7 @@
 function login() {
     var username = document.getElementById("form3Example1cg").value;
     var password = document.getElementById("form3Example4cg").value;
-    if (username == "admin" && password == "admin") {
+    if (username == "admin@correo.com" && password == "admin123") {
         alert("Bienvenido!");
         window.location = "indexSignup.html";
     } else {

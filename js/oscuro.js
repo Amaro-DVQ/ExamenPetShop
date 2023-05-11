@@ -9,11 +9,6 @@ toggle.addEventListener('change',(event)=>{
     document.body.classList.toggle('dark');
 
 
-
-
-
-
-
     if(checked==true){
         moscuro.innerHTML ='<i class="fa-solid fa-sun"></i>';   
         moscuro.style.color = '#dfba14';
