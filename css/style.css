@@ -19,6 +19,21 @@
      padding-left: 5px;
  }
 
+ .clima {
+    color: #0d1420;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: 3px solid #000;
+    border-radius: 5px;
+    padding-right: 2px;
+    padding-left: 5px;
+    width: 200px;
+    height: 200px;
+}
+
 
 .contenedor {
     max-width: 1200px;
