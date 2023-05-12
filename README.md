@@ -13,3 +13,10 @@ Cambie el icono nomas
 Agregue la wea del reloj , no me acuerdo si se hacia aqui o no pero lo deje comentao en el index todo
 
 Se ve feo y el responsive lo deja peor
+
+11-05
+hay que usar esta wea xd
+Cambie cosas visuales y agregue la wea del admin y adminshop, no se como sera pero en mi cabeza esta crear el carrito con localStorage y que al agregar , modificar o lo que sea
+como todo queda guardado en en locaStorage que este sea como un vinculo entre la vision del admin y del usuario, entonces al agregar un producto como esta en el storage el usuario lo podra ver dsps
+
+(ahora toy bloqueao pero ahi voy a ver si puedo)

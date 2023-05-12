@@ -36,15 +36,19 @@ function validarRegister() {
     }
 
 
-    if (document.getElementById("form3Example4cdg").value.length == 0) {
+    if (document.getElementById("form3Example5cdg").value.length == 0) {
         document.getElementById("varRPassword").style.display = "inline";
-        document.getElementById("form3Example4cdg").classList.add("is-invalid");
+        document.getElementById("form3Example5cdg").classList.add("is-invalid");
     }else{
         document.getElementById("varRPassword").style.display = "none";
-        document.getElementById("form3Example4cdg").classList.remove("is-invalid");
-        document.getElementById("form3Example4cdg").classList.add("is-valid");   
+        document.getElementById("form3Example5cdg").classList.remove("is-invalid");
+        document.getElementById("form3Example5cdg").classList.add("is-valid");   
     }
 }
+
+
+
+
 
 
 /* intentando hace una función que verifique el estado del checkbox para que active el btn de registro
