@@ -79,4 +79,3 @@ function agregarStorage() {
     localStorage.setItem("storagePetShop", JSON.stringify(storage));
     console.log("Storage actualizado")
 }
-
