@@ -20,3 +20,6 @@ Cambie cosas visuales y agregue la wea del admin y adminshop, no se como sera pe
 como todo queda guardado en en locaStorage que este sea como un vinculo entre la vision del admin y del usuario, entonces al agregar un producto como esta en el storage el usuario lo podra ver dsps
 
 (ahora toy bloqueao pero ahi voy a ver si puedo)
+
+13-05
+LocalStorage con funcion eliminar, agregar y modificar funcionando y cambie cosas de los html que faltaban por agregar como el tema del clima y que se viera un poco mejor

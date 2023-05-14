@@ -37,12 +37,12 @@
 
 .contenedor {
     max-width: 1200px;
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    /* oculto lo que queda fuera del .contenedor */
-    contain: paint;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        /* oculto lo que queda fuera del .contenedor */
+        contain: paint;
 }
 
 /* SECCION CONTENEDOR DE ITEMS */
@@ -80,6 +80,12 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+
+.contenedor .contenedor-items .item .descripcion-item {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
 
 .contenedor .contenedor-items .item .precio-item {
@@ -366,3 +372,4 @@ footer .card-text{
     border: 1px solid #42b3e5;
     transition: all 1.5s ease;
 }
+

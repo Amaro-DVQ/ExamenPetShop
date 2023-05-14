@@ -19,19 +19,26 @@
     
         <div class="container px-4 ">
     
-            <div id="relojnumerico" class="reloj" onload="cargarReloj()"></div>
+            <form class="d-flex px-2" style="align-items: center;">
+                <img src="img/logoperro.jpg" alt="" style="height: 50px; width: 50px;">
+                <a class="nav-link d-none d-sm-block" aria-current="page ">Los Tres Mosqueperros</a>
+            </form>
+            <br>
+            <form class="d-flex px-2">
+                <div id="relojnumerico" class="reloj" onload="cargarReloj()"></div>
+            </form>
+            <form class="d-flex px-2" style="align-items: center;">
+                <i class="fa-solid fa-cloud"></i>
+                <div id="clima"></div>
+            </form>
     
-    
-            <img src="img/logoperro.jpg" alt="" style="height: 50px; width: 50px;">
-            <a class="nav-link d-none d-sm-block" aria-current="page ">Los Tres Mosqueperros</a>
-    
-            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+            <button id="btnResponsive" class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation"><span class=""><i class="fa-solid fa-bars"></i></span></button>
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
     
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="indexSignup.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#!">Contact us</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
@@ -51,42 +58,20 @@
     
     
                 <form class="d-flex px-1">
-                    <a class="btn btn-outline-dark bi-person-circle me-1" href="user.html"> Cuenta</a>
+                    <a class="btn btn-outline-dark bi-person-fill me-1" href="login.html"> Login</a>
                 </form>
-                <br>
+    
                 <form class="d-flex px-1">
-                    <a class="btn btn-outline-dark bi-box-arrow-left me-1" href="index.html" data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"> Salir</a>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Cerrar sesión</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    ¿Está seguro que desea cerrar sesión?
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">No, quiero
-                                        seguir navegando</button>
-                                    <a class="btn btn-outline-danger" href="index.html">Cerrar sesión</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <a class="btn btn-outline-dark bi-person-fill me-1" href="register.html"> Register</a>
                 </form>
+    
                 <form class="d-flex px-1">
                     <div class="container">
                         <label id="moscuro" for="toggle"><i class="fa-solid fa-moon"></i></label>
                         <input type="checkbox" id="toggle">
                     </div>
                 </form>
+    
     
             </div>
         </div>
@@ -96,102 +81,23 @@
     <section class="contenedor">
         <!-- Contenedor de elementos -->
         <div class="contenedor-items">
-            <div class="item">
-                <span class="titulo-item">Comida de perro</span>
-                <img src="img/Comidasperros.jpg" alt="" class="img-item">
-                <span class="precio-item">$15.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Collar</span>
-                <img src="img/collar.jpg" alt="" class="img-item">
-                <span class="precio-item">$25.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Croquetas</span>
-                <img class="img-item"
-                    src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dwbfbc3d4f/images/86c84-mini-adulto-02.jpg"
-                    alt="..." />
-                <span class="precio-item">$35.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Arnes</span>
-                <img src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dw49c04eb9/images/41d23-0ba9d-30502-front-range-harness-campfire-orange-right-web_1024x1024.jpg"
-                    alt="" class="img-item">
-                <span class="precio-item">$15.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Casa de perro</span>
-                <img src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dw0018a583/images/14438-m-pets_10401399-chateau-dog-house-s-3d-sim-with-tag.jpg"
-                    alt="" class="img-item">
-                <span class="precio-item">$25.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Mochila </span>
-                <img src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dw2b10b865/images/9868b-pawise_mochila_19622.jpg"
-                    alt="" class="img-item">
-                <span class="precio-item">$35.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Cama para perro</span>
-                <img src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dwdaab6c3b/images/b7bec-moon_basket_s_10358699_0001_1.jpg"
-                    alt="" class="img-item">
-                <span class="precio-item">$25.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
-            <div class="item">
-                <span class="titulo-item">Juguete para gatitos</span>
-                <img src="https://www.superzoo.cl/on/demandware.static/-/Sites-SuperZoo-master-catalog/default/dwd02ce2ba/images/14408-catit-43155w-2.0senseswavecircuit-b2-international.jpg"
-                    alt="" class="img-item">
-                <span class="precio-item">$35.000</span>
-                <button class="boton-item">Agregar al Carrito</button>
-            </div>
     
+    
+    
+    
+    
+            <!-- Contenedor de elementos-->
         </div>
+    
         <!-- Carrito de Compras -->
         <div class="carrito" id="carrito">
             <div class="header-carrito">
                 <h2>Tu Carrito</h2>
             </div>
     
+    
             <div class="carrito-items">
-                <!-- 
-                    <div class="carrito-item">
-                        <img src="img/boxengasse.png" width="80px" alt="">
-                        <div class="carrito-item-detalles">
-                            <span class="carrito-item-titulo">Box Engasse</span>
-                            <div class="selector-cantidad">
-                                <i class="fa-solid fa-minus restar-cantidad"></i>
-                                <input type="text" value="1" class="carrito-item-cantidad" disabled>
-                                <i class="fa-solid fa-plus sumar-cantidad"></i>
-                            </div>
-                            <span class="carrito-item-precio">$15.000,00</span>
-                        </div>
-                       <span class="btn-eliminar">
-                            <i class="fa-solid fa-trash"></i>
-                       </span>
-                    </div>
-                    <div class="carrito-item">
-                        <img src="img/skinglam.png" width="80px" alt="">
-                        <div class="carrito-item-detalles">
-                            <span class="carrito-item-titulo">Skin Glam</span>
-                            <div class="selector-cantidad">
-                                <i class="fa-solid fa-minus restar-cantidad"></i>
-                                <input type="text" value="3" class="carrito-item-cantidad" disabled>
-                                <i class="fa-solid fa-plus sumar-cantidad"></i>
-                            </div>
-                            <span class="carrito-item-precio">$18.000,00</span>
-                        </div>
-                       <button class="btn-eliminar">
-                            <i class="fa-solid fa-trash"></i>
-                       </button>
-                    </div>
-                     -->
+    
             </div>
             <div class="carrito-total">
                 <div class="fila">
@@ -204,7 +110,8 @@
             </div>
         </div>
     </section>
-
+    
+   
     <footer class="p-4 py-4 ">
         <div class="row">
             <div class="col-sm-4 mb-3 mb-sm-0">
@@ -219,6 +126,7 @@
                 </div>
             </div>
     
+    
             <div class="col-sm-4">
                 <div class="card">
                     <div id="map" class="card-body" style="text-align: center; height: 145px;">
@@ -226,6 +134,7 @@
                     </div>
                 </div>
             </div>
+    
     
             <div class="col-sm-4">
                 <div class="card">
@@ -237,15 +146,28 @@
                 </div>
             </div>
     
+    
         </div>
     </footer>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/carrito.js"></script>
-    <script src="js/reloj.js"></script>
     <script src="js/oscuro.js"></script>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/clima.js"></script>
+    
+    
+    <script src="js/storage.js"></script>
+    <script src="js/carrito.js"></script>
+    
+    <script src="js/reloj.js"></script>
     <script src="js/mapApi.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
-</body>
-
-</html>
+    
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+    
+    
+    </html>
