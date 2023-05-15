@@ -11,11 +11,13 @@ if (navigator.geolocation) {
 
         $.getJSON(url, function (data) {
 
-
             var temperatura = data.main.temp;
+            var url = "https://openweathermap.org/img/wn/";
+            var iconUrl = url + data.weather[0].icon + "@2x.png";
 
-
-            $('#clima').html( temperatura + '°C');
+            $('#icono').attr('src', iconUrl);
+            $('#clima').html(temperatura + '°C');
+            
         });
     });
 } else {

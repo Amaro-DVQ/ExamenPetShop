@@ -192,10 +192,3 @@ function modificar() {
     mostrarProductos(storage);
 }
 
-function limpiar() {
-    document.getElementById("txtId").value = "";
-    document.getElementById("txtImagen").value = "";
-    document.getElementById("txtNombre").value = "";
-    document.getElementById("txtDescripcion").value = "";
-    document.getElementById("txtPrecio").value = "";
-}
