@@ -23,3 +23,6 @@ como todo queda guardado en en locaStorage que este sea como un vinculo entre la
 
 13-05
 LocalStorage con funcion eliminar, agregar y modificar funcionando y cambie cosas de los html que faltaban por agregar como el tema del clima y que se viera un poco mejor
+
+15-05 
+agregue en carrito.js dos funciones de sumarCantidad que estan maomenos xd, estan comentadas 

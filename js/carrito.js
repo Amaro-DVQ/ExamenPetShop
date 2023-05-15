@@ -126,21 +126,22 @@ function sumarCantidad(event) {
     var buttonClicked = event.target;
     var selector = buttonClicked.parentElement;
     var cantidadActual = parseInt(selector.getElementsByClassName('carrito-item-cantidad')[0].value);
-    var stock = parseInt(localStorage.getItem('stock'));
+    var storage = JSON.parse(localStorage.getItem('storagePetShop'));
 
-    if (cantidadActual < stock) {
+    var producto = storage.find(item => cantidadActual < item.stock);
+
+    if (producto) {
         cantidadActual++;
         selector.getElementsByClassName('carrito-item-cantidad')[0].value = cantidadActual;
         actualizarTotalCarrito();
     } else {
         alert('No hay suficiente stock disponible');
     }
-    console.log('Stock:', stock);
-}*/
 
-
-
-
+    if (producto) {
+        console.log('Stock:', producto.stock);
+    }
+}*/ 
 
 
 function restarCantidad(event) {
