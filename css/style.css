@@ -88,6 +88,28 @@
     text-align: center;
 }
 
+.contenedor .contenedor-items .item .stock-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #42b3e5;
+    color: #ffffff;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.contenedor .contenedor-items .item .stock-item span {
+    display: inline-block;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
 .contenedor .contenedor-items .item .precio-item {
     display: block;
     text-align: center;
@@ -377,3 +399,6 @@ footer .card-text{
     width: 50px;
     height: 50px;
 }
+
+
+
