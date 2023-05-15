@@ -19,11 +19,20 @@
 
         <div class="container px-4 ">
 
-            <div id="relojnumerico" class="reloj" onload="cargarReloj()"></div>
-
-
-            <img src="img/logoperro.jpg" alt="" style="height: 50px; width: 50px;">
-            <a class="nav-link d-none d-sm-block" aria-current="page ">Los Tres Mosqueperros</a>
+            <form class="d-flex px-2" style="align-items: center;">
+                <img src="img/logoperro.jpg" alt="" style="height: 50px; width: 50px;">
+                <a class="nav-link d-none d-sm-block" aria-current="page ">Los Tres Mosqueperros</a>
+            </form>
+            <br>
+            <form class="d-flex px-2">
+                <div id="relojnumerico" class="reloj" onload="cargarReloj()"></div>
+            </form>
+            <form class="dn d-flex px-2" style="align-items: center;">
+                <div class="p-1">
+                    <img src="" alt="icono" id="icono">
+                </div>
+                <div id="clima"></div>
+            </form>
 
             <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
